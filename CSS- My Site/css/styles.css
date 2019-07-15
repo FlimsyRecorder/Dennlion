@@ -1,0 +1,170 @@
+body {
+  /*#dbe9b7 */
+  background-color: #f9f3ec;
+  margin: 0;
+  text-align: center;
+  font-size: 15px;
+}
+
+h2 {
+  font-family: 'Poiret One', cursive;
+  font-size: 2.5rem;
+  color: #fabc60;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  margin-top: 50px ;
+  font-size: 5.625rem;
+  color: #fabc60;
+}
+
+.container {
+  margin: 0 0 0 -10px;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #3a9679;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 50px
+}
+
+.profilepic {
+  border-radius: 50%;
+  padding-top: 100px;
+  width: 25%;
+}
+
+h3, a {
+  color: #e16262;
+font-family: 'Lora', serif;
+}
+
+p {
+  font-family: 'Abel', sans-serif;
+  color: #313131;
+  font-size: 20px;
+}
+
+.skillpic1{
+  width: 40%;
+  float: left;
+  margin-right: 30px
+
+}
+.skillpic2 {
+  width: 40%;
+  float: right;
+  margin-left: 30px
+
+}
+
+span{
+  font-size: 1.5rem;
+  font-style: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+
+}
+.skill-description{
+  text-align:left;
+}
+
+hr{
+  border: none;
+
+    color:  #e16262;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+
+}
+
+hr:after {
+background: #f9f3ec;
+content: linear-gradient(#009975, #fabc60, #e16262);
+    padding: 2 4px;
+    position: relative;
+    top: -13px;
+}
+.btn{
+  font-family: 'Work Sans', sans-serif;
+}
+.button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 30px;
+    font-size: 1rem;
+    text-align: center;
+    color: #3a9679;
+    text-shadow: 1px 1px 1px #fabc60;
+    border-radius: 100px;
+    background-color: #3a9679;
+
+    box-shadow: inset 2px 2px 3px #58b368;
+
+}
+
+.button:hover {
+    background-color: #fabc60;
+}
+
+.button:active {
+    box-shadow: inset -2px -2px 3px #fabc60,
+                inset 2px 2px 3px #fabc60;
+              }
+
+
+.bottom-container{
+  background-color:
+    #dbe9b7;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.footer-link{
+  font-family: 'Dosis', sans-serif;
+  margin: 10px 20px;
+  font-size: 1.00rem;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #fabc60;
+}
+.sub-headers{
+font-family: 'Abel', sans-serif;
+}
+.copyrite{
+  color: #3a9679;
+  font-size: 0.85rem;
+  padding: 20px 0;
+}
+
+/*
+Hot to clear text wrapped around images
+
+.design-skill-description {
+  clear: left;
+}
+.craftsman-skill-description {
+  clear: right;
+}
+*/
